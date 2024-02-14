@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+body{
+  background-image: url("https://img.freepik.com/free-photo/https://img.freepik.com/free-photo/top-view-fresh-bell-peppers-with-radish-onions-white-table_140725-141945.jpg?size=626&ext=jpg&uid=R77256161&ga=GA1.1.219549287.1690818811&semt=ais://img.freepik.com/premium-vector/shopping-list-checklist-food-planning-market-concept-buying-supermarket_605517-405.jpg?size=626&ext=jpg&uid=R77256161&ga=GA1.1.219549287.1690818811&semt=ais-lay-colorful-composition-vegetables-with-clipboard_23-2148655262.jpg?size=626&ext=jpg&uid=R77256161&ga=GA1.1.219549287.1690818811&semt=ais");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  background-color: #faf7ec;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center; 
+   align-items: center;
+   flex-wrap: wrap;
+   margin-top: 90px;
+ }
+ .image{
+  border-radius: 20px;
+  margin-top: 20px;
+ }
+h1{
+  font-size: 60px;
+  font-family: 'Roboto', sans-serif;
+  color: #d55152;
+  padding: 0;
+  margin: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.imageOne{
+  display: flex;
+  justify-content: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Header{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+.InputStyle{
+  padding: 10px;
+  width: 350px;
+  border: none;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(59, 52, 52);
+  margin-top: 20px;
+}
+.btn{
+  padding: 15px;
+  width: 50%;
+  margin: 20px;
+  background-color: #d7c427;
+  color: #fbf4ea;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+}
+.cta{
+  padding: 15px;
+  width: 50%;
+  color: #fbf4ea;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  background-color: #d55152;
+  margin-bottom: 20px;
+}
+.crossed {
+  text-decoration: line-through 2px red;
+  background-color: #f0f0f0;
+}
+ul, li{
+  list-style-type: none;
+  padding: 10px;
+  font-size: 20px;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+@media all and (max-width: 800px){
+  h1{
+    font-size: 60px;
+    margin-top: 160px;
+  }
+  .container{
+    margin-top: 60px;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media all and (max-width: 500px){
+  h1{
+    font-size: 50px;
+    background-color: #fbf4ea;
+    padding: 15px;
+    border-radius: 20px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .InputStyle{
+    width: 260px;
   }
+
+ 
 }
+
