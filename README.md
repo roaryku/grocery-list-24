@@ -1,3 +1,12 @@
+<h1>Grocery List App</h1>
+<h3>React Web App</h3>
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/24386b25-ef7c-4cab-830c-1c36124dd3e5/deploy-status)]([https://24-grocery-list.netlify.app/])
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
