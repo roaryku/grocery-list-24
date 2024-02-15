@@ -1,7 +1,19 @@
 <h1>Grocery List App</h1>
 <h3>React Web App</h3>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/24386b25-ef7c-4cab-830c-1c36124dd3e5/deploy-status)](https://24-grocery-list.netlify.app/))
+[![Netlify Status](https://api.netlify.com/api/v1/badges/24386b25-ef7c-4cab-830c-1c36124dd3e5/deploy-status)](https://24-grocery-list.netlify.app/)
+
+<hr>
+- The app is build with react components <br>
+- One component added <br>
+- Integrate two buttons to add and delete items <br>
+- Target input value <br>
+- CSS work done for UI design part and flex box included for mobile devices updated 
+
+<br>
+
+![list-full](https://github.com/roaryku/grocery-list-24/assets/119984393/e0c1a8a5-e440-4f79-acfd-d2f8c50664b6)
+
 
 
 
