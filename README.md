@@ -9,7 +9,7 @@
 - One component added <br>
 - Integrate two buttons to add and delete items <br>
 - Target input value <br>
-- CSS work done for UI design part and flex box included for mobile devices updated 
+- CSS work done for UI design part and flex box included for mobile devices adaptive 
 
 <br>
 <hr>
