@@ -12,8 +12,7 @@
 - CSS work done for UI design part and flex box included for mobile devices updated 
 
 <br>
-<br>
-<br>
+<hr>
 
 ![list-full](https://github.com/roaryku/grocery-list-24/assets/119984393/e0c1a8a5-e440-4f79-acfd-d2f8c50664b6)
 
